@@ -6,7 +6,7 @@ A powerful multi-purpose calculator app that includes:
 - 📏 **Unit Converter**: Convert various measurement units easily.  
 
 ## 📸 Screenshots  
-![Multi Calculator Screenshots](assets/)  
+![Multi Calculator Screenshots](assets/1.jpg)
 
 ## 🔧 Features  
 ✅ Easy-to-use interface  
