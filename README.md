@@ -5,6 +5,12 @@ A powerful multi-purpose calculator app that includes:
 - 🔢 **Binary Calculator**: Convert between Binary, Hexadecimal, Octal, and Decimal.  
 - 📏 **Unit Converter**: Convert various measurement units easily.  
 
+## 📥 Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/sumail-000/Multi-Calculator-App
+
+
 ## 📸 Screenshots  
 ![Welcome Screenshot](assets/1.jpg)
 ![Options Screenshot](assets/2.jpg)
@@ -17,7 +23,3 @@ A powerful multi-purpose calculator app that includes:
 ✅ Fast and accurate calculations  
 ✅ Multiple conversion options  
 
-## 📥 Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/sumail-000/Multi-Calculator-App
