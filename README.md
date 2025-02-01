@@ -1,2 +1,19 @@
-# Multi-Calculator-App
- Multi Calculator is a versatile app developed in Android Studio with Java language featuring a simple calculator, a binary calculator for number conversions, and a unit converter for various measurements. It provides an easy-to-use interface for quick and accurate calculations. 🚀
+# Multi Calculator  
+A powerful multi-purpose calculator app that includes:
+
+- 🧮 **Simple Calculator**: Perform basic mathematical operations.  
+- 🔢 **Binary Calculator**: Convert between Binary, Hexadecimal, Octal, and Decimal.  
+- 📏 **Unit Converter**: Convert various measurement units easily.  
+
+## 📸 Screenshots  
+![Multi Calculator Screenshots](assets/)  
+
+## 🔧 Features  
+✅ Easy-to-use interface  
+✅ Fast and accurate calculations  
+✅ Multiple conversion options  
+
+## 📥 Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/sumail-000/Multi-Calculator-App
