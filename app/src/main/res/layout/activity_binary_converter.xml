@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Binary Calculator:"
+        android:textSize="22sp"
+        android:textColor="@color/text_primary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number"
+        app:boxStrokeColor="@color/border_color"
+        app:hintTextColor="@color/text_secondary"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword"
+            android:textColor="@color/text_primary"
+            android:padding="18dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textSize="20sp"
+        android:textColor="@color/text_secondary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        app:boxStrokeColor="@color/border_color">
+
+        <AutoCompleteTextView
+            android:id="@+id/inputTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:popupBackground="@color/dropdown_background"
+            android:textColor="@color/text_primary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textSize="20dp"
+        android:textColor="@color/text_secondary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        app:boxStrokeColor="@color/border_color">
+
+        <AutoCompleteTextView
+            android:id="@+id/outputTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:popupBackground="@color/dropdown_background"
+            android:textColor="@color/text_primary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/convertButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="Convert"
+            android:textSize="19sp"
+            app:cornerRadius="8dp"
+            android:backgroundTint="@color/primary_color"
+            android:textColor="@color/button_text_primary"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="× Reset"
+            android:textSize="17sp"
+            app:cornerRadius="8dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/secondary_color"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="@color/button_text_primary"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/swapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="swap"
+            android:textSize="17dp"
+            app:cornerRadius="8dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/secondary_color"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="@color/button_text_primary"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="20dp"
+        android:textColor="@color/text_secondary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/border_color">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="top"
+            android:padding="16dp"
+            android:textColor="@color/text_primary"
+            android:enabled="false"
+            android:background="@color/result_background"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/copyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:text="Copy result"
+        android:textSize="16sp"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="16dp"
+        app:icon="@drawable/ic_content_copy"
+        app:iconGravity="textStart"
+        android:backgroundTint="@color/secondary_color"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/button_text_primary"/>
+
+</LinearLayout>

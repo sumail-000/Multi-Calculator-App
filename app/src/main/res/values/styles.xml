@@ -1,0 +1,85 @@
+<resources>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- Base button style -->
+    <style name="CalculatorButtonBase" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/calculator_button_background</item>
+    </style>
+
+    <!-- Number button style -->
+    <style name="CalculatorNumberButton" parent="CalculatorButtonBase">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/number_button_background</item>
+    </style>
+
+    <!-- Operator button style -->
+    <style name="CalculatorOperatorButton" parent="CalculatorButtonBase">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/operator_button_background</item>
+    </style>
+
+    <!-- Equals button style -->
+    <style name="CalculatorEqualsButton" parent="CalculatorButtonBase">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/equals_button_background</item>
+    </style>
+
+
+
+    <!--    <style name="Theme.YourApp" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here &ndash;&gt;-->
+<!--        <item name="colorPrimary">#2C3E50</item>-->
+<!--        <item name="colorPrimaryDark">#2C3E50</item>-->
+<!--        <item name="colorAccent">#3498DB</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Base application theme &ndash;&gt;-->
+<!--    <style name="Theme.Calculatorapp" parent="Theme.MaterialComponents.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Primary brand color &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/primary_color</item>-->
+<!--        <item name="colorPrimaryVariant">@color/primary_dark</item>-->
+<!--        <item name="colorOnPrimary">@color/surface_color</item>-->
+
+<!--        &lt;!&ndash; Secondary brand color &ndash;&gt;-->
+<!--        <item name="colorSecondary">@color/secondary_color</item>-->
+<!--        <item name="colorSecondaryVariant">@color/secondary_light</item>-->
+<!--        <item name="colorOnSecondary">@color/surface_color</item>-->
+
+<!--        &lt;!&ndash; Status bar color &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@color/primary_dark</item>-->
+
+<!--        &lt;!&ndash; Text appearances &ndash;&gt;-->
+<!--        <item name="textAppearanceHeadline6">@style/TextAppearance.Calculator.Headline6</item>-->
+<!--        <item name="textAppearanceSubtitle1">@style/TextAppearance.Calculator.Subtitle1</item>-->
+<!--        <item name="textAppearanceBody1">@style/TextAppearance.Calculator.Body1</item>-->
+<!--    </style>-->
+
+    <!-- Text Styles -->
+    <style name="TextAppearance.Calculator.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Calculator.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.Calculator.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

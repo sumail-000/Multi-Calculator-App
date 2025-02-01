@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="button_text_color">#FFFFFFFF</color>
+    <color name="resultTextColor">#b5b5b5</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#e8e9ed</color>
+    <color name="result_background">#3F3F40</color>
+
+    <color name="dropdown_background">#eeeee4</color>
+    <color name="dropdown_text">#333232</color>
+
+    <color name="cardColor">#363a42</color>
+
+    <color name="topBar">#282a33</color>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/dark</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/dark2</item>
+        <item name="android:navigationBarColor">@color/dark2</item>
+
+        <!-- Default text color -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Dropdown Menu Styles -->
+        <!-- TextInputLayout Stroke Color -->
+        <item name="boxStrokeColor">@color/border_color</item>
+        <!-- Dropdown Menu Popup Background -->
+        <item name="android:popupBackground">@color/dropdown_background</item>
+        <!-- Dropdown Text Color -->
+        <item name="android:textColor">@color/dropdown_text</item>
+    </style>
+</resources>

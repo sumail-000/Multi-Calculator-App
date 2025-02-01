@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light">#c5c5c9</color>
+    <color name="dark">#1f1f1f</color>
+    <color name="dark2">#1F1D1D</color>
+    <color name="button_text_color">#FF000000</color>
+    <color name="resultTextColor">#90939d</color>
+    <color name="text_primary">#FF000000</color>
+    <color name="button_text_primary">#FFFFFFFF</color>
+
+    <color name="cardColor">#d7d7da</color>
+
+    <color name="topBar">#eeeee4</color>
+
+    
+    <color name="dropdown_background">#353841</color>
+    <color name="dropdown_text">#ADADB3</color>
+
+    <!-- Text Colors -->
+    <color name="text_secondary">#1a1a1a</color>
+
+    <color name="result_background">#d7d7da</color>
+
+    <!-- Primary Colors -->
+    <color name="primary_color">#00BCD4</color> <!-- Bright cyan for primary elements -->
+    <color name="primary_dark">#008BA3</color> <!-- Darker cyan -->
+    <color name="primary_light">#B2EBF2</color> <!-- Light cyan for highlights -->
+
+    <!-- Accent Colors -->
+    <color name="border_color">#FFC107</color> <!-- Amber for emphasis (buttons, borders) -->
+
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#FF5722</color> <!-- Vibrant orange for secondary elements -->
+
+    <color name="secondary_light">#90CAF9</color> <!-- Lighter secondary color for subtle highlights -->
+
+    <color name="surface_color">#424242</color> <!-- Darker shade for card surfaces -->
+
+
+
+    <!-- Other Colors -->
+    <color name="error_color">#D32F2F</color> <!-- Red for error states -->
+    <color name="success_color">#4CAF50</color> <!-- Green for success messages -->
+</resources>

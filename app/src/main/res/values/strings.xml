@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Multi Calculator</string>
+
+    <string name="simple_calculator">Simple Calculator</string>
+    <string name="simple_calculator_desc">Icon for simple calculator</string>
+    <string name="binary_converter">Binary Calculator</string>
+    <string name="binary_converter_desc">Icon for binary converter</string>
+    <string name="unit_converter">Unit Calculator</string>
+    <string name="unit_converter_desc">Icon for unit converter</string>
+
+    <string name="convert_arrow_description">Convert arrow</string>
+    <string name="input_default">0</string>
+    <string name="from_input">From</string>
+    <string name="input_value">Value</string>
+    <string name="to_input">To</string>
+    <string name="unit_type">Unit Type</string>
+    <!-- Unit types -->
+    <string-array name="unit_types">
+        <item>Length</item>
+        <item>Area</item>
+        <item>Data Transfer Rate</item>
+        <item>Digital Storage</item>
+        <item>Mass</item>
+        <item>Temperature</item>
+        <item>Time</item>
+    </string-array>
+
+    <!-- Length units -->
+    <string-array name="length_units">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Micrometer</item>
+        <item>Nanometer</item>
+        <item>Mile</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+
+    <!-- Area units -->
+    <string-array name="area_units">
+        <item>Square Kilometer</item>
+        <item>Square Meter</item>
+        <item>Square Centimeter</item>
+        <item>Square Millimeter</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+        <item>Square Mile</item>
+        <item>Square Yard</item>
+        <item>Square Foot</item>
+        <item>Square Inch</item>
+    </string-array>
+
+    <string-array name="data_transfer_rate_units">
+        <item>bps</item>
+        <item>Kbps</item>
+        <item>Mbps</item>
+        <item>Gbps</item>
+        <item>Tbps</item>
+        <item>Bps</item>
+        <item>KBps</item>
+        <item>MBps</item>
+        <item>GBps</item>
+        <item>TBps</item>
+    </string-array>
+
+    <string-array name="digital_storage_units">
+        <item>Bit</item>
+        <item>Kilobit</item>
+        <item>Megabit</item>
+        <item>Gigabit</item>
+        <item>Terabit</item>
+        <item>Petabit</item>
+        <item>Byte</item>
+        <item>Kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terabyte</item>
+        <item>Petabyte</item>
+    </string-array>
+
+    <string-array name="mass_units">
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Milligram</item>
+        <item>Micrograms</item>
+        <item>Metric Ton</item>
+        <item>Long Ton</item>
+        <item>Short Ton</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+        <item>Carrat</item>
+        <item>Atomic Mass Unit</item>
+    </string-array>
+
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="time_units">
+        <item>Second</item>
+        <item>Millisecond</item>
+        <item>Microsecond</item>
+        <item>Nanosecond</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+</resources>
